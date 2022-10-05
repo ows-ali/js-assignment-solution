@@ -1,0 +1,16 @@
+let cities = ["Parague", "Beijing",  "Tokyo", "Tehran","New York",]
+// console.log(cities.sort())
+console.log('original array: ',cities)
+console.log('alphabetical array: ',[...cities].sort())
+console.log('original array: ',cities)
+console.log('reverse alphabetical array: ',[...cities].sort().reverse())
+console.log('original array: ',cities)
+cities.reverse()
+console.log('array is reversed: ', cities)
+cities.reverse()
+console.log('array is reversed again/back to original: ', cities)
+
+cities.sort()
+console.log("aray is sorted: ", cities)
+cities.reverse()
+console.log("aray is reverse alphabetically sorted: ", cities)
